@@ -10,10 +10,19 @@
     />
 
     <!-- FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet" />
 
     <!-- FONTAWESOME -->
     <link
@@ -29,80 +38,81 @@
     <link rel="stylesheet" href="./Esercizio/css/style.css" />
 
     <!-- WEBPAGE_NAME -->
-    <title>Corso Web Developer- Epicode school</title>
+    <title>Corso Web Developer-</title>
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
       <div class="logo">
-        <img src="./Esercizio/images/logo.png" alt="logo del blog" width="250" height="60" />
+        <img src="./Esercizio/images/logo.png" alt="logo del blog" class="logoimg" />
       </div>
     </header>
 
     <!-- MAIN -->
     <main>
       <section class="sezione1">
-        <h1>Corso WEb Developer-</h1>
+        <h1>Corso Web Developer</h1>
         <div>
           <p>
             smetti di inseguire i titoi, inizia a lavorare. Mentre tutti vogliiono arricchire il CV, tu pensa ad
             arrichire le tue competenze
           </p>
-          <button type="submit">PARTIAMO!</button>
+          <button type="submit" class="button">PARTIAMO!</button>
         </div>
       </section>
       <section class="sezione2">
+        <h2>Tutti ti cercheranno</h2>
         <div>
-          <h2>Tutti ti cercheranno</h2>
           <p>Sono 30.000 in italia le posizioni di developer scoperte, scegli quella che ti stimola di più</p>
         </div>
+        <h2>Lavora dove vuoi</h2>
         <div>
-          <h2>Lavora dove vuoi</h2>
           <p>Lavora da casa, in riva al mare o in montagna.</p>
-          <img src="./Esercizio/images/foto1.jpg" alt="prima immagine " />
+          <div>
+            <img src="./Esercizio/images/notebook.jpg" alt="notebook " class="notebook" />
+          </div>
         </div>
+        <h2>Scegli il tuo ruolo</h2>
         <div>
-          <h2>Scegli il tuo ruolo</h2>
           <p>Potrai scegliere se essere Azienda, Freelance o Startup</p>
         </div>
+        <h2>Lavoro in libertà</h2>
         <div>
-          <h2>Lavoro in libertà</h2>
           <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali</p>
         </div>
       </section>
 
       <section class="sezione3">
         <div>
-          <h3>Epicode garantisce</h3>
-          <div class="corsivo>"><p>"3 mesi intesivi di corso che cambieranno radicalmente la tua vita"</p>
-          </div>
-          <h2>mario Rossi</h2>
+          <h1>Epicode garantisce</h1>
+          <div class="corsivo"><p>"3 mesi intesivi di corso che cambieranno radicalmente la tua vita"</p></div>
+          <p>mario Rossi</p>
           <div></div>
           <div><p>CEO,Epicode</p></div>
         </div>
       </section>
-      <section class="sezione4">
+      <section>
         <div class="phototut">
           <div class="bordersect">
-            <img src="./Esercizio/images/foto2.jpg" alt="foto3" class="foto" />
+            <img src="./Esercizio/images/foto1.jpg" alt="foto1" class="foto" />
             <h2>Il tuo pc</h2>
             <div><p>se vuoi diventare developer é 'unico strumento di cui hai bisogno</p></div>
           </div>
         </div>
       </section>
-      <section class="sezione5">
+      <section>
         <div class="phototut">
           <div class="bordersect">
-            <img src="./Esercizio/images/foto2.jpg" alt="foto3" class="foto" />
+            <img src="./Esercizio/images/foto2.jpg" alt="foto2" class="foto" />
             <h2>impara ora</h2>
             <div><p>Impara da chi diventerai tra qualche anno, e diventa un rockstar come loro.</p></div>
           </div>
         </div>
       </section>
-      <section class="sezione5">
+      <section>
         <div class="phototut">
           <div class="bordersect">
-            <img src="./Esercizio/images/foto2.jpg" alt="foto3" class="foto" />
+            <img src="./Esercizio/images/foto3.jpg" alt="foto3" class="foto" />
             <h2>lavora subito</h2>
             <div><p>sappiamo cosa vogliamo le aziende, perchè lavoriamo con loro.</p></div>
           </div>
@@ -112,16 +122,22 @@
 
     <!-- FOOTER -->
     <footer>
-      <section class="s-footer"></section>
-      <h3>Contattaci</h3>
-      <div class="footer"><p></p></div>
-      <div class="footer"><p></p></div>
-      <div class="footer"><p></p></div>
-
-    <div class="copy">
-      <p class="linea">&copy;2021. imagini di <span class="underline"> Pixabay.</p>
-    </div>
-
+      <section class="s-footer">
+        <h2>Contattaci</h2>
+        <div class="footer">
+          <p><i class="fas fa-phone-square-alt"></i> (+39) 11223456</p>
+        </div>
+        <div class="footer">
+          <p><i class="fas fa-envelope-square"></i> info@epicode.school</p>
+        </div>
+        <div>
+          <p><i class="fas fa-external-link-square-alt"></i> Via appa 1-0010 Roma (RM)</p>
+        </div>
+        <hr />
+        <div class="copy">
+          <p>&copy;2021. imagini di <span class="linea">Pixabay<span></p>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
